@@ -1,9 +1,16 @@
+import Button from "./components/ui/Button";
 import "./index.css";
 
 function App() {
   return (
     <>
-      <h1>h1</h1>
+      <Button width={300} color="#DB8686">
+        Get Your Custom Illustration
+      </Button>
+
+      <Button width={120} color="#DB8686">
+        Get Started
+      </Button>
     </>
   );
 }
