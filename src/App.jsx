@@ -1,11 +1,9 @@
 import "./index.css";
-import Hero from "./components/HeroSection";
-import Form from "./components/FormSection";
+
 function App() {
   return (
     <>
-      <Hero />
-      <Form />
+      <h1>h1</h1>
     </>
   );
 }
