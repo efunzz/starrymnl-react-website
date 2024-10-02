@@ -1,22 +1,24 @@
-import { Card, CardHeader, CardBody, CardFooter } from "@chakra-ui/react";
-import { SimpleGrid } from "@chakra-ui/react";
-import { Heading } from "@chakra-ui/react";
-import { Button, ButtonGroup } from "@chakra-ui/react";
-import { Text } from "@chakra-ui/react";
 import {
+  SimpleGrid,
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Heading,
   List,
   ListItem,
   ListIcon,
-  OrderedList,
-  UnorderedList,
+  Button,
 } from "@chakra-ui/react";
 import { CheckIcon } from "@chakra-ui/icons";
+
 function ServiceCard() {
   return (
-    <>
+    <div className="flex justify-center items-center">
       <SimpleGrid
-        spacing={4}
-        templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
+        spacing={7}
+        templateColumns="repeat(3, minmax(200px, 1fr))"
+        className="w-full max-w-5xl"
       >
         <Card>
           <CardHeader>
@@ -103,8 +105,7 @@ function ServiceCard() {
           </CardFooter>
         </Card>
       </SimpleGrid>
-      ;
-    </>
+    </div>
   );
 }
 
