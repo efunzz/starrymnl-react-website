@@ -15,10 +15,13 @@ function App() {
       <Button width={120} color="#DB8686">
         Get Started
       </Button>
-      <div className="about-section-1">
+      <div
+        className="about-section-1"
+        style={{ backgroundColor: "rgba(240, 215, 247, 0.18)" }}
+      >
         <AboutSection />
       </div>
-      <div className="service-section h-screen  justify-center items-center text-center mt-60">
+      <div className="service-section h-screen  justify-center items-center text-center mt-20">
         <Heading mb={20}>Services</Heading>
         <ServiceCard />
       </div>
