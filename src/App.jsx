@@ -4,6 +4,7 @@ import Button from "./components/ui/Button";
 
 import "./index.css";
 import AboutSection from "./components/AboutSection";
+import FaqSection from "./components/FAQsection";
 
 function App() {
   return (
@@ -21,9 +22,13 @@ function App() {
       >
         <AboutSection />
       </div>
-      <div className="service-section h-screen  justify-center items-center text-center mt-20">
+      <div className="service-section   justify-center items-center text-center mt-20">
         <Heading mb={20}>Services</Heading>
         <ServiceCard />
+      </div>
+      <div className="faq-section justify-center items-center text-center mt-20">
+        <Heading mb={10}>FAQ</Heading>
+        <FaqSection />
       </div>
     </>
   );
