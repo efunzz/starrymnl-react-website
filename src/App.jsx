@@ -6,10 +6,17 @@ import "./index.css";
 import AboutSection from "./components/AboutSection";
 import FaqSection from "./components/FAQsection";
 import FooterSection from "./components/FooterSection";
+import NavBar from "./components/NavBar";
+import SimpleSlider from "./components/ui/ImageCarousell";
 
 function App() {
   return (
     <>
+      <NavBar />
+      <div className="hero-section flex justify-center items-center">
+        <SimpleSlider />
+      </div>
+
       <div
         className="about-section-1"
         style={{ backgroundColor: "rgba(240, 215, 247, 0.18)" }}
