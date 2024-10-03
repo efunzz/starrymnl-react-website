@@ -9,6 +9,7 @@ import FaqSection from "./components/FAQsection";
 import FooterSection from "./components/FooterSection";
 import NavBar from "./components/NavBar";
 import SimpleSlider from "./components/ui/ImageCarousell";
+import Form1 from "./components/FormSection";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
       <div className="footer-section mt-20">
         <FooterSection />
       </div>
+      <Form1 />
     </>
   );
 }
