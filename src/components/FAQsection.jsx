@@ -12,9 +12,8 @@ function FaqSection() {
     <div className="flex justify-center items-center">
       <Box
         border="1px"
-        borderColor="gray.300"
+        borderColor="gray.200"
         borderRadius="20px"
-        bg="gray.100"
         p={4}
         width={1000}
       >

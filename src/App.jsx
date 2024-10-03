@@ -21,12 +21,12 @@ function App() {
         <div className="slider flex justify-center">
           <SimpleSlider />
         </div>
-        <Text mb={10} mt={20}>
+        <Text color="#888888" mb={10} mt={20}>
           MEMORIES TO ILLUSTRATION
         </Text>
 
         <Button
-          width={191}
+          width={250}
           color={"pink"}
           children={"Get Your Custom Illustration"}
           mb={10}
@@ -34,7 +34,7 @@ function App() {
       </div>
 
       <div
-        className="about-section-1"
+        className="about-section-1 pt-20 pb-10 mt-20"
         style={{ backgroundColor: "rgba(240, 215, 247, 0.18)" }}
       >
         <AboutSection />
