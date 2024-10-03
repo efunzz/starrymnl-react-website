@@ -1,4 +1,5 @@
 import { Heading } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 import ServiceCard from "./components/ServiceSection";
 import Button from "./components/ui/Button";
 
@@ -13,8 +14,23 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className="hero-section flex justify-center items-center">
-        <SimpleSlider />
+      <div className="hero-section justify-center items-center text-center">
+        <Heading mb={20} color={"pink"}>
+          Starrymnl
+        </Heading>
+        <div className="slider flex justify-center">
+          <SimpleSlider />
+        </div>
+        <Text mb={10} mt={20}>
+          MEMORIES TO ILLUSTRATION
+        </Text>
+
+        <Button
+          width={191}
+          color={"pink"}
+          children={"Get Your Custom Illustration"}
+          mb={10}
+        />
       </div>
 
       <div
