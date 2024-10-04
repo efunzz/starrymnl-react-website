@@ -14,7 +14,6 @@ import Button from "./ui/Button";
 
 export function Form1() {
   const [show, setShow] = useState(false);
-  const handleClick = () => setShow(!show);
   return (
     <>
       <Heading
@@ -89,6 +88,9 @@ export function Form1() {
           size="sm"
           w="full"
           rounded="md"
+          bg="rgba(153, 153, 153, 0.15)"
+          color="#999999" // Set the text color for the input
+          _placeholder={{ color: "#999999" }}
         >
           <option>Digital Illustration</option>
           <option>Logo Design</option>

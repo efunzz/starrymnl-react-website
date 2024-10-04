@@ -10,6 +10,7 @@ import FooterSection from "./components/FooterSection";
 import NavBar from "./components/NavBar";
 import SimpleSlider from "./components/ui/ImageCarousell";
 import Form1 from "./components/FormSection";
+import ImageGrid from "./components/IllustrationPage";
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
       >
         <AboutSection />
       </div>
-      <div className="service-section   justify-center items-center text-center mt-20">
+      <div className="service-section justify-center items-center text-center mt-20">
         <Heading mb={20}>Services</Heading>
         <ServiceCard />
       </div>
@@ -52,6 +53,13 @@ function App() {
         <FooterSection />
       </div>
       <Form1 />
+
+      <div className="illustration-section justify-center items-center text-center mt-20">
+        <Heading color="#DB8686" mb={10}>
+          Other Illustration I have done
+        </Heading>
+        <ImageGrid />
+      </div>
     </>
   );
 }
