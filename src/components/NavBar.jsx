@@ -71,7 +71,6 @@ const MenuLinks = ({ isOpen }) => {
         <MenuItem to="/">Home</MenuItem>
         <MenuItem to="/illustration">Illustration </MenuItem>
         <MenuItem to="/formpage">Order </MenuItem>
-        <MenuItem to="/pricing">Pricing </MenuItem>
       </Stack>
     </Box>
   );

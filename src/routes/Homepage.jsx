@@ -13,7 +13,7 @@ function Homepage() {
     <>
       <NavBar />
       <div className="hero-section justify-center items-center text-center">
-        <Heading mb={20} color={"pink"}>
+        <Heading mb={20} color={"#DB8686"}>
           Starrymnl
         </Heading>
         <div className="slider flex justify-center">
@@ -23,8 +23,8 @@ function Homepage() {
           MEMORIES TO ILLUSTRATION
         </Text>
         <Button
-          width={250}
-          color={"pink"}
+          width={20}
+          color={"#DB8686"}
           children={"Get Your Custom Illustration"}
           mb={10}
         />

@@ -8,10 +8,9 @@ import {
   List,
   ListItem,
   ListIcon,
-  Button,
 } from "@chakra-ui/react";
 import { CheckIcon } from "@chakra-ui/icons";
-
+import { Button } from "@chakra-ui/react";
 function ServiceCard() {
   return (
     <div className="flex justify-center items-center">
