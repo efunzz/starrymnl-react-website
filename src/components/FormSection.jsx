@@ -11,11 +11,12 @@ import {
   FormHelperText,
 } from "@chakra-ui/react";
 import Button from "./ui/Button";
+import { Box } from "@chakra-ui/react";
 
 export function Form1() {
   const [show, setShow] = useState(false);
   return (
-    <>
+    <Box w="60%" mx="auto">
       <Heading
         w="100%"
         color="#DB8686"
@@ -130,7 +131,7 @@ export function Form1() {
         children={"Submit"}
         mb={10}
       />
-    </>
+    </Box>
   );
 }
 

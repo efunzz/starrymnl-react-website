@@ -4,7 +4,8 @@ function Button({ width, color, children }) {
       className={`rounded-lg px-4 py-2 text-white hover:opacity-80 duration-300 shadow-2xl hover:shadow-xl`}
       style={{
         backgroundColor: color,
-        width: `${width}px`,
+        width: width ? `${width}%` : "auto",
+        maxWidth: "100%",
       }}
     >
       {children}
