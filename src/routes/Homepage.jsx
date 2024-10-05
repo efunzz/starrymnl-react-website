@@ -1,18 +1,14 @@
 import { Heading } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
-import ServiceCard from "./components/ServiceSection";
-import Button from "./components/ui/Button";
+import ServiceCard from "../components/ServiceSection";
+import Button from "../components/ui/Button";
+import AboutSection from "../components/AboutSection";
+import FaqSection from "../components/FAQsection";
+import FooterSection from "../components/FooterSection";
+import NavBar from "../components/NavBar";
+import SimpleSlider from "../components/ui/ImageCarousell";
 
-import "./index.css";
-import AboutSection from "./components/AboutSection";
-import FaqSection from "./components/FAQsection";
-import FooterSection from "./components/FooterSection";
-import NavBar from "./components/NavBar";
-import SimpleSlider from "./components/ui/ImageCarousell";
-import Form1 from "./components/FormSection";
-import ImageGrid from "./components/IllustrationPage";
-
-function App() {
+function Homepage() {
   return (
     <>
       <NavBar />
@@ -26,7 +22,6 @@ function App() {
         <Text color="#888888" mb={10} mt={20}>
           MEMORIES TO ILLUSTRATION
         </Text>
-
         <Button
           width={250}
           color={"pink"}
@@ -34,7 +29,6 @@ function App() {
           mb={10}
         />
       </div>
-
       <div
         className="about-section-1 pt-20 pb-10 mt-20"
         style={{ backgroundColor: "rgba(240, 215, 247, 0.18)" }}
@@ -52,16 +46,8 @@ function App() {
       <div className="footer-section mt-20">
         <FooterSection />
       </div>
-      <Form1 />
-
-      <div className="illustration-section justify-center items-center text-center mt-20">
-        <Heading color="#DB8686" mb={10}>
-          Other Illustration I have done
-        </Heading>
-        <ImageGrid />
-      </div>
     </>
   );
 }
 
-export default App;
+export default Homepage;
