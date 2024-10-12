@@ -49,4 +49,7 @@ The design and layout were inspired by Starrymnl’s aesthetic, and while I shar
 
 ## License
 
-This project is for personal use and is not affiliated with Starrymnl.
+This project is licensed under the Creative Commons Attribution 4.0 International License.  
+You are free to share and adapt the material, provided you give appropriate credit.
+
+See the [LICENSE](./LICENSE) file for more details.
