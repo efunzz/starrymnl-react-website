@@ -62,6 +62,17 @@ The design and layout were inspired by Starrymnl's aesthetic, and while I shared
 
 ## 🎬 Demo
 
+https://github.com/user-attachments/assets/5f1bf3c6-cee5-4feb-b2e8-54e58a74e6f3
 
-https://github.com/user-attachments/assets/YOUR-VIDEO-ID-HERE
+
+
+
+
+
+
+
+
+
+
+
 
